@@ -1,0 +1,18 @@
+.catalogTab {
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(50px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    padding: 5px;
+}
+.img {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 5px;
+}
