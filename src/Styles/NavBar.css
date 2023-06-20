@@ -11,12 +11,12 @@
     padding: 10px;
     gap: 50px;
 }
-span {
+.navButton {
     text-align: start;
     cursor: pointer;
     font-size: 18px;
 }
-span:hover {
+.navButton:hover {
     color:#DE5285;
     border-bottom: 1px solid #DE5285;
 }

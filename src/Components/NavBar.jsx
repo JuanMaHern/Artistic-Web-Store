@@ -7,10 +7,10 @@ const NavBar = ({ window, setWindow }) => {
     }
     return(
         <div className="navBar">
-            <span className={window.tab === 'Home'? 'resalt' : null} onClick={handleChangeTab}>Home</span>
-            <span className={window.tab === 'About Me'? 'resalt' : null} onClick={handleChangeTab}>About Me</span>
-            <span className={window.tab === 'Ceramics'? 'resalt' : null} onClick={handleChangeTab}>Ceramics</span>
-            <span className={window.tab === 'Order'? 'resalt' : null} onClick={handleChangeTab}>Order</span>
+            <span className={window.tab === 'Home'? 'navButton resalt' : 'navButton'} onClick={handleChangeTab}>Home</span>
+            <span className={window.tab === 'About Me'? 'navButton resalt' : 'navButton'} onClick={handleChangeTab}>About Me</span>
+            <span className={window.tab === 'Ceramics'? 'navButton resalt' : 'navButton'} onClick={handleChangeTab}>Ceramics</span>
+            <span className={window.tab === 'Order'? 'navButton resalt' : 'navButton'} onClick={handleChangeTab}>Order</span>
         </div>
     )
 }

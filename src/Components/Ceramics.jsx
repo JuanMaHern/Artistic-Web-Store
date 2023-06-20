@@ -15,7 +15,9 @@ const Ceramics = () => {
                     auxList.push(ceramic)
                 }
             }
-            setList(auxList)
+            setTimeout(() => {
+                setList(auxList)
+              }, "500");
         } else {
             setList(CeramicsInv)
         }

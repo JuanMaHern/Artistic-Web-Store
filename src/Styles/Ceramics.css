@@ -13,9 +13,9 @@
     height: 100%;
     display: flex;
     flex-flow: row wrap;
-    justify-content: baseline;
+    justify-content: center;
     align-items: baseline;
     overflow-y: scroll;
-    gap: 10px;
+    gap: 20px;
     margin-top: 10px;
 }
